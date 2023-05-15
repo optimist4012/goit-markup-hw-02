@@ -62,8 +62,8 @@ body {
 .header-link:hover, .header-link:focus {
     color:var(--background-color);
 }
-.header-address-list {
-    
+.header-address{
+    font-style: normal;
 }
 .header-address-link {
     font-style: normal;
@@ -205,7 +205,6 @@ body {
 }
 /* Fitters */
 .fitters-button-list {
-    font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -213,6 +212,7 @@ body {
     padding: 12px 24px;
 }
 .fitters-button-item {
+    font-family: "Roboto", sans-serif;
     box-sizing: border-box;
     border: 1px solid var(--border-color);
     border-radius: 4px;
@@ -231,14 +231,10 @@ body {
 }
 .fitters-button:hover,
 .fitters-button:focus {
-    background-color: var(--text-color);
+    background-color: var(--background-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     color: var(--white-color);
-}
-.fitters-item {
-    background: var(--white-color);
-    border: 1px solid var(--border-color);
 }
 .fitters-text-top {
     font-weight: 500;
