@@ -50,6 +50,7 @@ body {
     color: var(--title-color);
 }
 .header-link {
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -58,7 +59,7 @@ body {
 }
 /* Navigation */
 .header-link:hover, .header-link:focus {
-    color:var(--logo-color);
+    color:var(--background-color);
 }
 .header-address-list {
     
@@ -71,7 +72,7 @@ body {
     color: #434455;
 }
 .header-address-link:hover, .header-address-link:focus {
-    color: var(--logo-color);
+    color: var(--background-color);
 }
 /* Hero */
 .studio-btn {
@@ -119,9 +120,19 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/* Works */
+.works {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
 /* Our Team */
 .ourteam {
-    background: var(--text-color);
+    background: var(--background-color);
 }
 .ourteam-text-top {
     font-size: 36px;
@@ -193,6 +204,7 @@ body {
 }
 /* Fitters */
 .fitters-button-list {
+    font-family: inherit;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -201,11 +213,11 @@ body {
 }
 .fitters-button-item {
     box-sizing: border-box;
-    background: var(--text-color);
     border: 1px solid var(--border-color);
     border-radius: 4px;
 }
 .fitters-button {
+    background: var(--text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
